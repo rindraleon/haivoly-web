@@ -1,5 +1,15 @@
+/**
+ * URL de l'API.
+ * - En développement : `/api` est proxifié vers le backend local par Vite.
+ * - En production : un build sans `VITE_API_URL` ne doit pas tomber sur `/api`
+ *   (404 sur un hébergeur statique) mais joindre le backend déployé.
+ */
+const apiUrl =
+  import.meta.env.VITE_API_URL ||
+  (import.meta.env.PROD ? 'https://haivoly-back.onrender.com' : '/api');
+
 export const config = {
-  apiUrl: import.meta.env.VITE_API_URL || '/api',
+  apiUrl,
   appName: import.meta.env.VITE_APP_NAME || 'Haivoly',
 };
 
