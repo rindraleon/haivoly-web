@@ -1,0 +1,2 @@
+# SPA : toute route inconnue (ex. /register) doit renvoyer index.html.
+/*    /index.html   200
