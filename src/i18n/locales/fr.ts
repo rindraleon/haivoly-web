@@ -92,7 +92,7 @@ const fr = {
     rendements: 'Rendements',
     queueOffline: 'Queue offline',
     aDiagnostiquer: 'À diagnostiquer',
-    suiviAntananarivo: 'Suivi • Antananarivo',
+    sousTitre: 'Pilotage agricole',
     systeme: 'Système',
     principal: 'Principal',
     navigationPrincipale: 'Navigation principale',

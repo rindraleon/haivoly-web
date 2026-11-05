@@ -82,7 +82,7 @@ export function AppShell() {
                 <X size={16} />
               </button>
             </div>
-            <div style={{ flex: 1, overflow: 'auto' }}>
+            <div style={{ flex: 1, minHeight: 0, overflow: 'hidden' }}>
               <Sidebar collapsed={false} onToggle={() => setDrawerOpen(false)} />
             </div>
           </div>
