@@ -95,7 +95,7 @@ const en: Traductions = {
     rendements: 'Yields',
     queueOffline: 'Offline queue',
     aDiagnostiquer: 'To diagnose',
-    suiviAntananarivo: 'Tracking • Antananarivo',
+    sousTitre: 'Farm management',
     systeme: 'System',
     principal: 'Main',
     navigationPrincipale: 'Main navigation',

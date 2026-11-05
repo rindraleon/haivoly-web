@@ -380,7 +380,12 @@ html{scrollbar-width:thin;scrollbar-color:#D0D5DD transparent}
 .mobile-header{ display:none !important }
 @media (max-width: 1024px){
   .mobile-header{ display:grid !important; place-items:center; background:#0F1A0F !important; border-color:#0F1A0F !important; color:white !important }
-  .sidebar{ display:none !important }
+  /* Cacher uniquement la sidebar du bureau : celle du drawer doit rester visible. */
+  .shell-inner > .sidebar{ display:none !important }
+  .drawer .sidebar{ display:flex !important; position:static; height:100%; width:100%; border-right:0 }
+  .drawer .sidebar-inner{ height:100% }
+  .drawer .sidebar-brand{ display:none }
+  .drawer .nav{ min-height:0 }
   .topbar{ backdrop-filter: blur(10px) }
   .search{ width: 100%; max-width: none }
   .topbar-inner{ padding:0 14px }

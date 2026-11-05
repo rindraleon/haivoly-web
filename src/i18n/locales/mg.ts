@@ -94,7 +94,7 @@ const mg: Traductions = {
     rendements: 'Vokatry',
     queueOffline: 'Filaharana offline',
     aDiagnostiquer: 'Hodiagnosy',
-    suiviAntananarivo: 'Fanaraha-maso • Antananarivo',
+    sousTitre: 'Fitantanana ny fambolena',
     systeme: 'Rafitra',
     principal: 'Tena',
     navigationPrincipale: 'Fitetezana voalohany',

@@ -55,9 +55,10 @@ export function Sidebar({ collapsed, onToggle }: Readonly<Props>) {
           </div>
           <div className="brand-text">
             <div className="brand-title">
-              Haivoly <span className="brand-badge">PRO</span>
+              Haivoly 
+              {/* <span className="brand-badge">PRO</span> */}
             </div>
-            <div className="brand-subtitle">{t('navigation.suiviAntananarivo')}</div>
+            <div className="brand-subtitle">{t('navigation.sousTitre')}</div>
           </div>
           <button
             className="sidebar-collapse"
